@@ -5,11 +5,11 @@ export default class Board {
         this.height = height;
     }
     drawLine(ctx) {
-        ctx.setLineDash([10, 10]);
+        ctx.setLineDash([15, 15]);
         ctx.beginPath();
         ctx.moveTo(this.width / 2, 0);
         ctx.lineTo(this.width / 2, this.height);
-        ctx.strokeStyle = "white";
+        // ctx.strokeStyle = "white";
         ctx.stroke();
     }
     render(ctx) {

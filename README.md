@@ -1,29 +1,14 @@
+![Alt text](./src/pong.png)
+
+
 # Pong Game
 
-A basic pong game using HTML5 Canvas. 
+- Loaded using Webpack
 
-## Setup
+- Use an HTML5 Canvas board to contain the pong game with an initialized board with a background and coloured paddles and ball
 
-##### Install
+- Audio sounds triggered on ball bounces
 
-`> npm i`
+- Use default import and export on classes 
 
-##### Run
-
-`> npm start`
-
-##### Build
-
-`> npm build`
-
-## Keys
-
-##### Player 1:
-* a: up
-* z: down
-* q: fire a new ball
-
-##### Player 2:
-* ▲ : up
-* ▼: down
-* /: fire a new ball
+- Instantiate new objects using new

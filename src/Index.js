@@ -1,5 +1,5 @@
 import './game.css';
-import Game from './Game';
+import Game from './Game.js';
 
 var game = new Game();
 
@@ -10,3 +10,4 @@ function gameLoop() {
    setTimeout(gameLoop, fps);
 }
 gameLoop();
+

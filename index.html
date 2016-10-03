@@ -1,22 +1,29 @@
 <!DOCTYPE HTML>
 <html>
-   <head>
+    <head>
        <meta charset="utf-8">
        <title>Pong</title>
        <link rel="icon" type="image/ico" href="favicon.ico" />
    </head>
 
    <body>
-       <h1>Pong Wars</h1>
 
+
+       <h1>Pong Wars</h1>
+       <audio id="pongSound1">
+           <source src="./sounds/pong-01.wav" id="pongSound01" type="audio/wav"></audio>
+       <audio id="pongSound2">
+           <source src="./sounds/pong-02.wav" id="pongSound02" type="audio/wav"></audio>
+       
        <!-- render game here -->
-       <canvas id="game"></canvas>
+       <canvas id="game" style="background-color: black;"></canvas>
 
        <div class="players">
            <span>P1</span>
            <span>P2</span>
        </div>
-       <script type="text/javascript" src="build/bundle.js"></script>
 
+       <script type="text/javascript" src="build/bundle.js"></script>
    </body>
+   
 </html>
